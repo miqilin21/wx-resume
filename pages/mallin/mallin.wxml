@@ -1,0 +1,36 @@
+<view class="project-tmp">
+    <view class="project-title">
+        <text>xx品牌海外网上商城</text>
+    </view>
+    <view class="project-label">
+        <text>Html5 + Css</text>
+        <text>JavaScript</text>
+        <text>Require.js</text>
+    </view>
+    <view class="content project-info">
+        <view class="row item">
+            <view class="label">
+                <text>项目地址：</text>
+            </view>
+            <view class="desc">
+                <text>https://www.xxx.com</text>
+            </view>
+        </view>
+        <view class="row item">
+            <view class="label">
+                <text>项目描述：</text>
+            </view>
+            <view class="desc">
+                <text>自研产品xxx品牌官方商城，基于B2C的电子商务类网站，主要针对海外用户，销售xxx品牌旗下所有产品</text>
+            </view>
+        </view>
+        <view class="row item">
+            <view class="label">
+                <text>项目职责</text>
+            </view>
+            <view class="desc">
+                <text>独立负责整个xxx品牌商城的前端开发与维护工作，开发不定期的新品推广页、节日活动页；完善和开发网站功能</text>
+            </view>
+        </view>
+    </view>
+</view>

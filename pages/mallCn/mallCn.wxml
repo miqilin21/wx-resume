@@ -1,0 +1,37 @@
+<view class="project-tmp">
+    <view class="project-title">
+        <text>xx品牌中国官网</text>
+    </view>
+    <view class="project-label">
+        <text>Html5 + Css</text>
+        <text>JavaScript</text>
+        <text>vue.js</text>
+        <text>Gulp</text>
+    </view>
+    <view class="content project-info">
+        <view class="row item">
+            <view class="label">
+                <text>项目地址：</text>
+            </view>
+            <view class="desc">
+                <text>http://www.xxx.net/</text>
+            </view>
+        </view>
+        <view class="row item">
+            <view class="label">
+                <text>项目描述：</text>
+            </view>
+            <view class="desc">
+                <text>xx品牌中国官网站点，主要为展示所有xx系列产品，介绍和宣传产品细节和公司背景，引导用户购买和渠道推广</text>
+            </view>
+        </view>
+        <view class="row item">
+            <view class="label">
+                <text>项目职责</text>
+            </view>
+            <view class="desc">
+                <text>负责整个xx中国官网站点的界面、交互效果开发，负责css、Js动画效果展示、过渡；适配所有屏幕尺寸;引入gulp工具实现代码优化、代码压缩、自动化处理、迭代开发。</text>
+            </view>
+        </view>
+    </view>
+</view>

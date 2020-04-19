@@ -1,0 +1,22 @@
+<view class="project">
+    <view class="banner-tmp">
+        <image mode="widthFix" src="../../static/images/notebook.jpg"></image>
+        <view class="banner-text">
+            <text>实践是检验真理的唯一标准</text>
+        </view>
+    </view>
+    <view class="wrapper ">
+        <view class="project-list">
+            <view class="item mallin">
+                <navigator url="/pages/mallin/mallin">
+                    <text class="project-info">xx品牌海外商城</text>
+                </navigator>
+            </view>
+            <view class="item mallCn">
+                <navigator url="/pages/mallCn/mallCn">
+                    <text class="project-info">xx品牌中国官网</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

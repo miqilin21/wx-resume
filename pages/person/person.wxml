@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="banner-tmp">
+        <image mode="widthFix" src="../../static/images/mountaine.jpg"></image>
+        <view class="banner-text">
+            <text>Stay hungry. Stay young.</text>
+        </view>
+    </view>
+    <view class="main">
+        <view class="official-box">
+            <official-account></official-account>
+        </view>
+        <view class="person-website">
+            <view class="section">
+                <view class="website-item blog">
+                    <image mode="widthFix" src="../../static/images/diary.jpg"></image>
+                    <view bindtap="onClipboardData" class="text" data-text="https://amberzqx.com">
+                        <text>个人博客: </text>
+                        <text>https://amberzqx.com</text>
+                    </view>
+                </view>
+                <view class="website-item">
+                    <image mode="widthFix" src="../../static/images/beverage.jpg"></image>
+                    <view bindtap="onClipboardData" class="text" data-text="https://github.com/miqilin21">
+                        <text>github主页: </text>
+                        <text>https://github.com/miqilin21</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="section contact-info">
+            <view class="title">
+                <text>联系方式</text>
+            </view>
+            <view class="content">
+                <view bindtap="onClipboardData" class="item" data-text="{{email}}">
+                    <text class="iconfont icon-email"></text>
+                    <text>{{email}}</text>
+                </view>
+                <view bindtap="onMakePhoneCall" class="item" data-text="{{phone}}">
+                    <text class="iconfont icon-phone"></text>
+                    <text>{{phone}}</text>
+                </view>
+                <view bindtap="onClipboardData" class="item" data-text="{{wx}}">
+                    <text class="iconfont icon-weixin"></text>
+                    <text>{{wx}}</text>
+                </view>
+                <view bindtap="onClipboardData" class="item" data-text="{{qq}}">
+                    <text class="iconfont icon-qq"></text>
+                    <text>{{qq}}</text>
+                </view>
+                <view class="item">
+                    <text class="iconfont icon-contact"></text>
+                    <button bindcontact="handleContact" openType="contact" size="mini">在线对话</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

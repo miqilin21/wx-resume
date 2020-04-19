@@ -1,0 +1,129 @@
+.banner image {
+    width: 100%;
+}
+
+.avatar image {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    margin-top: -120rpx;
+}
+
+.user-info {
+    margin-top: -80rpx;
+    position: relative;
+    padding-bottom: 40rpx;
+    z-index: 2;
+    text-align: center;
+}
+
+.user-info .name text {
+    font-size: 40rpx;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.user-info .motto {
+    color: #797979;
+}
+
+.flex-grid .items {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.personal-info .items:not(:last-child) {
+    margin-bottom: 20rpx;
+}
+
+.personal-info .items .item .iconfont {
+    margin-right: 10rpx;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal-info .items .item text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.job .salary {
+    color: #07c160;
+}
+
+.small-text {
+    font-size: 24rpx;
+    margin-top: 4rpx;
+}
+
+.tree-list {
+    border-left: 1px solid #ddd;
+    padding: 20rpx 0;
+}
+
+.tree-item {
+    position: relative;
+    padding-left: 50rpx;
+    margin-bottom: 20rpx;
+}
+
+.tree-item:last-child {
+    margin-bottom: 0;
+}
+
+.tree-item .tree-point {
+    position: absolute;
+    left: -7px;
+    top: 6px;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+.tree-item .tree-point .outer-point {
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.tree-item .tree-point .inner-point {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.tree-item .tree-text {
+    padding: 14rpx 0;
+}
+
+.skill-item .tree-text {
+    background-color: #f1f1f1;
+    border-radius: 6rpx;
+    color: #666;
+    padding: 18rpx 20rpx;
+}
+
+.work-info .content .item .info {
+    color: #666;
+}
+
+.work-info .content .item .info .row:last-child {
+    margin-bottom: 0;
+}
+
+.work-info .content .item:not(:last-child) {
+    margin-bottom: 40rpx;
+}
+
+.work-desc text {
+    display: block;
+    margin-bottom: 10rpx;
+}

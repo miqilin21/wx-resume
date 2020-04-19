@@ -1,0 +1,5 @@
+getApp();
+
+Page({
+    onShareAppMessage: function() {}
+});
