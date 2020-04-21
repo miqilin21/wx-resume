@@ -8,7 +8,7 @@
                 <image src="../../static/images/avatar.jpg"></image>
             </view>
             <view class="name">
-                <text>米淇淋</text>
+                <text>罗宗民</text>
             </view>
             <view class="motto">
                 <text>凡心所向，素履所往，生如逆旅，一苇以航</text>
@@ -136,7 +136,7 @@
                             <text>web前端开发</text>
                         </view>
                         <view class="row work-desc">
-                            <text>1、负责公司官网、自营商城、品牌商城、移动商城、ERP数据对接中间件系统、防伪码验证系统、展会活动H5站点等项目的所有前端开发和维护工作；</text>
+                            <text>1、负责公司官网、自营商城、品牌商城、移动商城、展会活动H5站点等项目的所有前端开发和维护工作；</text>
                             <text>2、负责公司项目pc端及移动端架构设计和开发，完成项目从零到上线代码编写工作;</text>
                             <text>3、与产品运营团队讨论产品需求设计，与后端开发团队紧密配合，制定最佳技术实现方案;</text>
                             <text>4、根据产品设计需求，实现前端页面功能</text>

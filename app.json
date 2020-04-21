@@ -9,12 +9,13 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "个人简历",
+    "navigationBarTitleText": "Min的个人简历",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#8a8a8a",
-    "selectedColor": "#2c2c2c",
+    "backgroundColor": "#fff",
+    "color": "#000000",
+    "selectedColor": "#1296db",
     "borderStyle": "white",
     "list": [
       {

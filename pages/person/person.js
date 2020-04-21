@@ -1,9 +1,9 @@
 Page({
     data: {
-        phone: "159****9015",
+        phone: "15990039015",
         email: "miqilin18@gmail.com",
-        wx: "lzm9****8917",
-        qq: "9****8917",
+        wx: "lzm994718917",
+        qq: "994718917",
     },
     onLoad: function(n) {},
     onReady: function() {},
